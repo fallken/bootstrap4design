@@ -3,22 +3,271 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"  content="width=device-width, initial-scale=1">
+	<link rel="icon" href="src/images/icon.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100|Source+Sans+Pro:300i" rel="stylesheet">
 	<link rel="stylesheet" href="src/css/custome.css">
 	<title>bootstrap responsive</title>
 </head>
 <body>
+	<!-- navbar		 -->
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a data-scroll class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a data-scroll class="nav-link" href="#">About</a>
+      </li>
+       <li class="nav-item">
+        <a data-scroll class="nav-link " href="#">Services</a>
+      </li>
+     
+    </ul>
+
+   
+  </div>
+</nav>
+ <!-- end of navbar -->
+ 	<!-- modal section -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="mr-auto"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button></div>
+					<h4 class="modal-title" id="myModal">Login or Register</h4>
+				</div>
+				<div class="modal-body">
+					<form action="#" method="POST">
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" placeholder="password">
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary" value="Login">
+							<input type="submit" class="btn btn-success" value="Register">
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<a href="" class="btn btn-primary" data-dismiss="modal">forgot password?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+ 	<!-- end of modal section -->
+	<!-- jumbotron -->
+		
+		<div class="jumbotron" id="login">
+		  <h1 class="display-4">Hello, world!</h1>
+		  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		  <hr class="my-4">
+		  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		  <p class="lead">
+		    <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#login">Learn more</a>
+		  </p>
+		</div>
+
+	<!-- end of jumbotron -->
+	<div id="services">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1>Top best features <small>For You</small></h1>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="src/images/1.svg" class="img-thumbnail "  alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="src/images/3.svg" class="img-thumbnail" alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="src/images/2.svg" class="img-thumbnail" alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="src/images/4.svg" class="img-thumbnail"  alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="src/images/5.svg" class="img-thumbnail" alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="src/images/6.svg" class="img-thumbnail" alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="src/images/7.svg" class="img-thumbnail"  alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="src/images/8.svg" class="img-thumbnail" alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+				<div class="col-md-4">
+					<img src="src/images/9.svg" class="img-thumbnail" alt="">
+					<p class="lead">Prototyping</p>
+					<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia obcaecati enim debitis adipisci itaque laboriosam rem provident, excepturi blanditiis mollitia velit quibusdam doloribus dolor ratione, dolore, quod culpa officia? Iste.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jumbotron-->
+	<div class="jumbotron" id="portfolio">
+		<div class="container-fluid">
+			<h1>Ther portfolio</h1>
+			<blockquote class="blockquote">
+  			<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, magnam repellat magni praesentium incidunt pariatur ad cumque debitis ducimus harum officiis eveniet quod. Vero vitae fugiat ex natus iusto quas!</p>
+			</blockquote>
+			<blockquote class="blockquote">
+  			<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet dolorum tempora molestias optio architecto harum deserunt quaerat non dicta aliquam accusamus, et laborum ab tempore voluptatem voluptatibus, incidunt quam.
+			</blockquote>
 			
-	it is a text
+		</div>
+	</div>
 
+	<!-- end of jumbotron-->
+	<div id="team">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1>our guys<small>in company</small></h1>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="james miller" src="src/images/avatars/1.png" alt="">
+				<p class="lead">Project manager</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="edward garson" src="src/images/avatars/2.png" alt="">
+				<p class="lead">design manager</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="xigmond froid" src="src/images/avatars/3.png" alt="">
+				<p class="lead">lead developer</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="paul johnson" src="src/images/avatars/4.png" alt="">
+				<p class="lead">server developer</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="emily cottler" src="src/images/avatars/5.png" alt="">
+				<p class="lead">asisstant</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="cawel withman" src="src/images/avatars/6.png" alt="">
+				<p class="lead">spokesman</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="seth olins" src="src/images/avatars/7.png" alt="">
+				<p class="lead">concealer</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="rilda wegan" src="src/images/avatars/8.png" alt="">
+				<p class="lead">stylist</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="sheffered miller" src="src/images/avatars/9.png" alt="">
+				<p class="lead">css expert</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="indi orwin" src="src/images/avatars/10.png" alt="">
+				<p class="lead">flash designer</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="fower cowster" src="src/images/avatars/11.png" alt="">
+				<p class="lead">strategy designer</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+				<div class="col-md-3"><img data-toggle="tooltip" data-placement="bottom" title="lynda williams" src="src/images/avatars/12.png" alt="">
+				<p class="lead">coperator</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quibusdam dignissimos repellendus minima ad et veniam, asperiores nam? Doloremque eos expedita iusto laudantium ut ad enim consequuntur reiciendis qui atque.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jumbotron-->
+	<div class="jumbotron" id="home">
+		<div class="container-fluid">
+			<h1>Extra info</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nisi, dolore quos culpa, corporis pariatur assumenda, unde est error mollitia libero harum dolorem blanditiis eius aliquid id nihil facere. Qui!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quae debitis deleniti facilis aspernatur, totam officiis. Illum eaque excepturi assumenda, iste harum obcaecati. Est maxime illo eos, blanditiis obcaecati autem!</p>
+			<p><a href="" class="btn btn-primary btn-lg">view info</a></p>
+		</div>
+	</div>
 
+	<!-- end of jumbotron-->
+	<!-- contact section -->
+	<div id="contact">
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1>Contact<small> us any time u want</small></h1>
+			</div>
+			<form action="#" method="GET">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Name" name="Name" required>
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Email" name="Email" required>
+				</div>
+				<div class="form-group">
+					<input type="tel" class="form-control" placeholder="Phone" name="Phone" >
+				</div>
+				<div class="form-group">
+					<textarea name="Message" class="form-control" placeholder="Message" ></textarea>
+				</div>
+				<div class="text-center"><input type="submit" class="btn btn-primary btn-lg" value="Submit"></div>
+			</form>
+		</div>
+	</div>
 
+	<!-- end of contact section -->
+	<!-- footer section -->
+		<footer>
+			<div class="container-fluid">
+			<a data-scroll href="#home">Home</a>
+			<a data-scroll href="#services">Services</a>
+			<a data-scroll href="#testomonials">Testomonials</a>
+			<a data-scroll href="#team">Team</a>
+			<a data-scroll href="#portfolio">Portfolio</a>
+			<a data-scroll href="#contact">Contact</a>
+			</div>
+		</footer>
+	<!-- end of footer section -->
 
 	<!-- scritps -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<script src="src/js/smooth-scroll.js"></script>
+	<script>
+		$("#team img").tooltip();
+	</script>
 </body>
 </html>
